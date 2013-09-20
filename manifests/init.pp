@@ -1,6 +1,6 @@
 class spamsieve {
   package { 'spamsieve':
     provider => 'appdmg',
-    source   => 'https://github.com/boxen/puppet-template.git'
+    source   => 'http://c-command.com/downloads/SpamSieve-2.9.8.dmg'
   }
 }
