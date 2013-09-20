@@ -1,4 +1,6 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class spamsieve {
+  package { 'spamsieve':
+    provider => 'appdmg',
+    source   => 'https://github.com/boxen/puppet-template.git'
+  }
 }
