@@ -1,4 +1,7 @@
 #SpamSieve
+[![Build Status](https://travis-ci.org/takashiyoshida/puppet-spamsieve.png?branch=travis)](https://travis-ci.org/takashiyoshida/puppet-spamsieve)
+
+Install [SpamSieve](http://c-command.com/spamsieve/) on OS X.
 
 ## Usage
 
