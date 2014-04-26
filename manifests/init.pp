@@ -6,6 +6,6 @@
 class spamsieve {
   package { 'SpamSieve':
     provider => 'appdmg',
-    source   => 'http://c-command.com/downloads/SpamSieve-2.9.12.dmg'
+    source   => 'http://c-command.com/downloads/SpamSieve-2.9.13.dmg'
   }
 }
