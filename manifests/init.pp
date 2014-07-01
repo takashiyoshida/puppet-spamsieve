@@ -7,6 +7,7 @@ class spamsieve (
   $version = '2.9.15'
 ) {
   package { 'SpamSieve':
+    ensure   => installed,
     provider => 'appdmg',
     source   => "http://c-command.com/downloads/SpamSieve-${version}.dmg"
   }
