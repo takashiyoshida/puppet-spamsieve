@@ -4,7 +4,7 @@
 #
 #   include spamsieve
 class spamsieve (
-  $version = '2.9.15'
+  $version = '2.9.16'
 ) {
   package { 'SpamSieve':
     ensure   => installed,
