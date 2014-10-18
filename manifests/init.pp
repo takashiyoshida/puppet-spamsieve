@@ -4,10 +4,10 @@
 #
 #   include spamsieve
 class spamsieve (
-  $version = '2.9.16'
+  $version = '2.9.17'
 ) {
   package { 'SpamSieve':
-    ensure   => installed,
+    ensure   => 'installed',
     provider => 'appdmg',
     source   => "http://c-command.com/downloads/SpamSieve-${version}.dmg"
   }
